@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.5.2/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>My Portofoil</title>
+    
+</head>
+<body>
+<div id="container">
+    <div class="header">
+        <nav>
+            <h1 class="rohith"><span class="name">R.</span></h1>
+            <ul id="sidemenu">
+                <li><a href="#container">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <div class="header-left">
+                <h4><span style="color: #ff004f;" class="typing"></span></h4>
+                <h1>Hi, I'm Ghanathe<br/><span id="typed-text">Rohith</span> Akshay</h1>
+                <a href="public/Pdf/Ghanathe Rohith Akshay Resume.pdf" download class="btn btn2" style="font-size: small;";>Download CV</a>
+            </div>
+            <div class="header-right">
+                <img class="profile1" src="public/images/3.png" alt="Profile Picture 1">
+                <img class="profile" src="public/images/rohith.jpg" alt="profile picture">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------------about--------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="public/images/nubelson.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-titles">About Me</h1>
+                <p>Hello there! I'm Ghanathe Rohith Akshay, a designer fueled by creativity and driven by the desire to craft 
+                    exceptional user experiences.</p>
+                    
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+                        <p class="tab-links" onclick="opentab('strength')">Strength</p>
+                        <p class="tab-links" onclick="opentab('personaldetails')">Personal Details</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br/>HTML, CSS, JavaScript, Node.js, Express.js, EJS, APIs</li>
+                            <li><span>Version Controler</span><br/>Git/Github</li>
+                            <li><span>Database</span><br/>PostgreSQL</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Undergraduate Degree</span><br/>(B. Tech) in Information Technology<br/>Sreenidhi Institute of Science & Technology. (2019-2023)</li>
+                            <li><span>Intermediate</span><br/>Pine Grove Junior College. (2017-2019)</li>
+                            <li><span>Schooling</span><br/>Shree Swaminarayan Gurukul International School. (2017)</li>
+                        </ul>
+        </div>
+        <div class="tab-contents" id="certifications">
+            <ul>
+                <li>AWS Cloud Computing <a href="public/Pdf/AWS CC.pdf" download class="btn btn2" style="font-size: 60%;";>Download AWS</a></li>     
+                <li>AI-ML Virtual Internship</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="strength">
+            <ul>
+                <li>Positive Personality</li>
+                <li>Time managemant skills</li>
+                <li>Communication</li>
+                <li>Patience</li>
+                <li>Collaborative team member</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="personaldetails">
+            <ul>
+                <li><span>Name:</span> Ghanathe Rohith Akshay</li>
+                <li><span>Father's name:</span> Ghanathe Ram Gopal Rao</li>
+                <li><span>Gender:</span> Male</li>
+                <li><span>Languages known:</span> English, Hindi, Telugu, Marathi</li>
+                <li><span>Nationality:</span> Indian</li>
+                <li><span>Permanent Address:</span> 1-8-24/1A, TD Gutta, Fire Station, Mahbubnagar,Telangana,509001 </li>
+                <li><span>Hobbies:</span> Listening Music, Watching Movies</li>
+                <li><span>Curricular Activities:</span> Travelling, Basketball, Cricket, Volleybal</li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</div>
+<!-- --------------contact------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i><ion-icon name="mail"></ion-icon></i> rohithakshay105@gmail.com</p>
+                <p><i><ion-icon name="call"></ion-icon></i> 9390136386</p>
+
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100009692767548&mibextid=ZbWKwL"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="https://x.com/RohithAkshay5?s=08"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="https://www.linkedin.com/in/rohith-akshay-2895a11a9"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a href="https://instagram.com/rohithakshay631?igshid=MTNiYzNiMzkwZA=="><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="https://github.com/RohithAkshay?tab=repositories"><ion-icon name="logo-github"></ion-icon></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your  Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <h1 class="rohith"><span class="name">R.</span></h1>My  Portfolio &copy; 2024 | Designed by Ghanathe Rohith Akshay
+</footer>
+
+
+<script src="index.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</body>
+</html>
