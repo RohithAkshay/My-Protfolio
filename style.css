@@ -338,9 +338,6 @@ footer {
         width: 150%;
     }
     /* About Section */
-    .row {
-        justify-content: center;
-    }
     .about-col-1 {
         margin-top: 0;
         margin-bottom: 30px;
