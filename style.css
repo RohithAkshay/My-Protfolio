@@ -410,7 +410,7 @@ footer p {
         font-size: 14px;
     }
 }
-/* @media for screens with width: 400px */
+/* @media for screens with width: 400px 
 @media (max-width: 400px){
     .header {
         padding: 5px 3%;
@@ -443,7 +443,7 @@ footer p {
         width: 0%;
     }
     /* about section */
-    .about-col-1 img {
+    /*.about-col-1 img {
         width: 200px;
         height: 200px;
         text-align: center;
@@ -489,3 +489,4 @@ footer p {
         font-size: 12px;
     }
 }
+*/
