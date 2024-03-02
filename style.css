@@ -411,7 +411,7 @@ footer p {
     }
 }
 /* @media for screens with width: 412px and height: 914px */
-@media (max-width: 412px) and (max-height: 914px) {
+@media (max-width: 400px){
     .header {
         padding: 5px 3%;
     }
