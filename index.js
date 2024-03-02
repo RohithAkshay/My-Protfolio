@@ -32,5 +32,19 @@ function closemenu() {
     sidemeu.style.right = "-200px";
 }
 
+//* Initialize ScrollReveal
+// document.addEventListener('DOMContentLoaded', function () {
+//    ScrollReveal().reveal('.scroll-reveal', {
+//        delay: 200,
+//        duration: 1006,
+//        distance: '80px',
+//        origin: 'bottom',
+//        easing: 'cubic-bezier(0.5, 0, 0, 0.5)',
+//        opacity: 0,
+//        scale: 1,
+//        reset: true,
+//        mobile: true
+//    });
+// });
 
 
