@@ -297,7 +297,7 @@ footer p {
 }
 /*---------------@media-------------*/
 /* Mobile and Tablet Styles */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     nav {
         margin-right: 0;
     }
@@ -410,7 +410,7 @@ footer p {
         font-size: 14px;
     }
 }
-/* @media for screens with width: 412px and height: 914px */
+/* @media for screens with width: 400px */
 @media (max-width: 400px){
     .header {
         padding: 5px 3%;
@@ -439,8 +439,8 @@ footer p {
         width: 200px;
     }
     .profile1 {
-        height: 130%;
-        width: 130%;
+        height: 0%;
+        width: 0%;
     }
     /* about section */
     .about-col-1 img {
