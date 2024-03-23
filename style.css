@@ -82,6 +82,8 @@ nav ul li a:hover::after {
     color: red;
 }
 .profile {
+    /*border-radius: 50%;
+    border: 7px solid red;*/
     margin-top: 0;
     display: block;
     height: 300px;
@@ -91,16 +93,6 @@ nav ul li a:hover::after {
     position: relative;
     z-index: 1;
     transition: transform 0.3s ease;
-}
-.profile1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 150%; 
-    height: 150%;
-    object-fit: cover;
-    z-index: -1;
 }
 @keyframes floatImage {
     0% {
@@ -354,10 +346,6 @@ footer p {
         height: 250px;
         width: 250px;
     }
-    .profile1 {
-        height: 0%;
-        width: 0%;
-    }
     /* About Section */
     .about-col-1 {
         display: flex;
@@ -438,10 +426,6 @@ footer p {
         height: 200px;
         width: 200px;
     }
-    .profile1 {
-        height: 0%;
-        width: 0%;
-    }
     /* about section */
     .about-col-1 img {
         width: 200px;
@@ -471,6 +455,162 @@ footer p {
         width: 100% !important;
     }    
     .contact-left, .contact-right {
+        flex-basis: 100%;
+    }
+    .contact-left p i {
+        font-size: 18px;
+    }
+    .social-icons a {
+        font-size: 25px;
+    }
+    .btn.btn2 {
+        padding: 8px 12px;
+    }
+    .contact-right form .btn2 {
+        padding: 10px 40px;
+    }
+    footer {
+        font-size: 12px;
+    }
+}
+/* Previous CSS continues... */
+
+/* @media for screens with width: 430px */
+@media (max-width: 430px) {
+    .header {
+        padding: 5px 3%;
+    }
+    .rohith {
+        font-size: 40px;
+    }
+    .header-text {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 80px;
+        font-size: 20px;
+    }
+    .header-text h1 {
+        font-size: 40px;
+    }
+    .header-right {
+        margin-right: 0% !important;
+        order: 1;
+    }
+    .header-left {
+        order: 2;
+    }
+    .profile {
+        height: 200px;
+        width: 200px;
+    }
+    /* about section */
+    .about-col-1 img {
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        justify-content: center;
+    }
+    .about-col-1,
+    .about-col-2 {
+        flex-basis: 100%;
+    }
+    .about-col-2 {
+        font-size: 14px;
+    }
+    .sub-titles {
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .tab-links {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+    article {
+        padding: 1.5rem;
+        flex: 1;
+        border-radius: 2rem;
+        background-color: #262626;
+        width: 100% !important;
+    }
+    .contact-left,
+    .contact-right {
+        flex-basis: 100%;
+    }
+    .contact-left p i {
+        font-size: 18px;
+    }
+    .social-icons a {
+        font-size: 25px;
+    }
+    .btn.btn2 {
+        padding: 8px 12px;
+    }
+    .contact-right form .btn2 {
+        padding: 10px 40px;
+    }
+    footer {
+        font-size: 12px;
+    }
+}
+/* @media for screens with width: 450px to 430px */
+@media (max-width: 450px) and (min-width: 430px) {
+    .header {
+        padding: 5px 3%;
+    }
+    .rohith {
+        font-size: 40px;
+    }
+    .header-text {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 80px;
+        font-size: 20px;
+    }
+    .header-text h1 {
+        font-size: 40px;
+    }
+    .header-right {
+        margin-right: 0% !important;
+        order: 1;
+    }
+    .header-left {
+        order: 2;
+    }
+    .profile {
+        height: 200px;
+        width: 200px;
+    }
+    /* about section */
+    .about-col-1 img {
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        justify-content: center;
+    }
+    .about-col-1,
+    .about-col-2 {
+        flex-basis: 100%;
+    }
+    .about-col-2 {
+        font-size: 14px;
+    }
+    .sub-titles {
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .tab-links {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+    article {
+        padding: 1.5rem;
+        flex: 1;
+        border-radius: 2rem;
+        background-color: #262626;
+        width: 100% !important;
+    }
+    .contact-left,
+    .contact-right {
         flex-basis: 100%;
     }
     .contact-left p i {
